@@ -19,12 +19,21 @@
   width: 100%;
 }
 
+.image-40 {
+  width: 40%;
+}
+
 .image-pp {
   width: 30%;
   height: auto;
 }
 
 .tableau {
+  width: 100%;
+  position: center;
+}
+
+.tableau2 {
   table-layout: fixed;
   width: 100%;
 }
@@ -7793,7 +7802,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #1d1e2c !important;
 }
 
 .text-black-50 {
@@ -7811,6 +7820,13 @@ textarea.form-control-lg {
 .text-black-50-left-list {
   text-align: left;
   padding-left: 1%;
+  --bs-text-opacity: 1;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.text-black-50-left-list2 {
+  text-align: left;
+  padding-left: 3%;
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
 }
